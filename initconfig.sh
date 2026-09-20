@@ -311,6 +311,10 @@ generate_config_file() {
         "Level": "error",
         "Output": ""
     },
+    "GeoFiles": [
+        "geofile:geosite-category-cryptocurrency",
+        "geofile:geoip-cn"
+    ],
     "Cores": $cores_config,
     "Nodes": [$formatted_nodes_config]
 }
